@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jsPsych 3D Test</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jsPsych & styles -->
+  <script src="https://unpkg.com/jspsych@8"></script>
+  <link rel="stylesheet" href="https://unpkg.com/jspsych@8/css/jspsych.css"/>
+
+  <!-- WebGazer  -->
+  <script src="https://webgazer.cs.brown.edu/webgazer.js"></script>
+
+  <!-- WebGazer extension + plugins -->
+  <script src="https://unpkg.com/@jspsych/extension-webgazer@1"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-webgazer-init-camera@2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-webgazer-calibrate@2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-webgazer-validate@2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2"></script>
+</head>
+<body>
+  <div id="three-container"></div>
+  <script src="./js/scripts.js" type="module"></script>
+</body>
+</html>

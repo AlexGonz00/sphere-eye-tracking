@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #111;
+}
+
+#three-container {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+#three-container canvas {
+  display: block;
+}
